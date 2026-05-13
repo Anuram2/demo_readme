@@ -18,7 +18,7 @@
 
 ### 🚀 *For knowing the weather and forecast in your location and other locations.*
 
-[**Download APK**](#installation) · [**View Demo**](#demo) · [**Report Bug**](../../issues) · [**Request Feature**](../../issues)
+[**Download APK**](#DownloadAPK)  ·  [**Report Bug**](../../issues)  ·  [**Request Feature**](../../issues)
 
 </div>
 
@@ -50,8 +50,6 @@
 | <img src="assets/location_permission.png" width="220"/> | <img src="assets/gps_check.png" width="220"/> | <img src="assets/home.png" width="220"/> |
 
 </div>
-
-> 💡 *Replace the placeholders above with actual screenshots. You can drag images into your repo's `/assets` folder and reference them here.*
 
 ---
 
@@ -87,8 +85,6 @@
 | **Build** | ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white) with `Version Catalogs` |
 
 </div>
-
-> ✏️ *Remove rows that don't apply and add any libraries specific to your project.*
 
 ---
 
