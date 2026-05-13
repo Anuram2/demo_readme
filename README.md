@@ -3,7 +3,7 @@
 <div align="center">
 
 <!-- BANNER / LOGO -->
-<img src="https://placehold.co/900x280/0A0A0A/00C853?text=YOUR+APP+NAME&font=montserrat" alt="App Banner" width="100%" style="border-radius: 12px;" />
+<img src="https://placehold.co/900x280/0A0A0A/00C853?text=LOCAL+WEATHER&font=montserrat" alt="App Banner" width="100%" style="border-radius: 10px;" />
 
 <br/>
 <br/>
