@@ -1,5 +1,3 @@
-# demo_readme
-
 <div align="center">
 
 <!-- BANNER / LOGO -->
@@ -18,7 +16,7 @@
 
 <br/>
 
-### 🚀 *One-liner that captures what your app does and why it matters.*
+### 🚀 *For knowing the weather and forecast in your location and other locations.*
 
 [**Download APK**](#installation) · [**View Demo**](#demo) · [**Report Bug**](../../issues) · [**Request Feature**](../../issues)
 
@@ -29,7 +27,7 @@
 ## 📋 Table of Contents
 
 - [About](#-about)
-- [Demo](#-demo)
+- [Visuals](#-visuals)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Installation](#-installation)
@@ -41,11 +39,9 @@
 
 > **Local Weather** is an Android application built with Kotlin and Jetpack Compose that fetches local weather data through openweatherapi. It requires GPS to properly fetch your current location data(at the moment + forecast for the next 7 days), and also you can check the weather of a specific place you wish to know(weather at the moment only). On App relaunch it would check the permission and then if the GPS is enabled or not and proceed to home screen.
 
-Whether you're [target user A] or [target user B], **YourAppName** gives you [core value proposition] — right from your Android device.
-
 ---
 
-## 🎬 Demo
+## 🎬 Visuals
 
 <div align="center">
 
