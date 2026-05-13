@@ -123,18 +123,6 @@ cd your-app-name
 ./gradlew assembleDebug
 ```
 
-### Environment Variables *(if applicable)*
-
-Create a `local.properties` file in the root directory:
-
-```properties
-# local.properties
-API_KEY=your_api_key_here
-BASE_URL=https://api.yourservice.com
-```
-
-> ⚠️ **Never commit `local.properties` to version control.** It is already listed in `.gitignore`.
-
 ### Download APK
 
 | Version | Date | Download |
