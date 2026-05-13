@@ -124,7 +124,7 @@ If there is any error verify the cause in the console
 
 | Version | Date | Download |
 |---|---|---|
-| `v1.0.0` | Coming soon | [![APK](https://img.shields.io/badge/Download-APK-3DDC84?style=for-the-badge&logo=android)](../../releases) |
+| `v0.00.001` | Coming soon | [![APK](https://img.shields.io/badge/Download-APK-3DDC84?style=for-the-badge&logo=android)](../../releases) |
 
 ---
 
@@ -139,7 +139,7 @@ v0.00.002  ████████░░░░░░░░░░░░  🔧  [
 - [x] Core UI with Jetpack Compose
 - [x] Fetch current weather — Complete
 - [x] Fetch queried weather - Complete
-- [x] Background Notification — *in progress*
+- [ ] Background Notification — *in progress*
 - [ ] Tablet / large screen optimization
 
 > Have an idea? [Open a feature request](../../issues/new) — contributions are welcome!
