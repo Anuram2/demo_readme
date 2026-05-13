@@ -37,7 +37,7 @@
 
 ## 🧭 About
 
-> **Local Weather** is an Android application built with Kotlin and Jetpack Compose that fetches local weather data through openweatherapi. It requires GPS to properly fetch your current location data(at the moment + forecast for the next 7 days), and also you can check the weather of a specific place you wish to know(weather at the moment only). On App relaunch it would check the permission and then if the GPS is enabled or not and proceed to home screen.
+> **Local Weather** is an Android application built with Kotlin and Jetpack Compose that fetches local weather data through OpenWeatherMap api. It requires GPS to properly fetch your current location data(at the moment + forecast for the next 7 days), and also you can check the weather of a specific place you wish to know(weather at the moment only). On App relaunch it would check the permission and then if the GPS is enabled or not and proceed to home screen.
 
 ---
 
@@ -57,13 +57,9 @@
 
 | Feature | Description |
 |---|---|
-| ⚡ **Feature One** | Brief description of this feature and its user benefit |
-| 🎨 **Feature Two** | Brief description of this feature and its user benefit |
-| 🔒 **Feature Three** | Brief description of this feature and its user benefit |
-| 📊 **Feature Four** | Brief description of this feature and its user benefit |
-| 🔔 **Feature Five** | Brief description of this feature and its user benefit |
-| 🌙 **Dark Mode** | Full dark/light theme support via Material You theming |
-| 📱 **Offline First** | Core functionality available without internet connection |
+| ⚡ **Fetch current weather** | Current location's weather is fetched using GPS coordinates |
+| 🔍 **Remote location weather** | Through searchbar input user can see weather of any available locations |
+| 🔔 **Background fetch with notification** | In progress |
 
 ---
 
@@ -79,7 +75,6 @@
 | **DI** | ![Hilt](https://img.shields.io/badge/Hilt-34A853?style=flat-square&logo=google&logoColor=white) |
 | **Async** | ![Coroutines](https://img.shields.io/badge/Coroutines-7F52FF?style=flat-square&logo=kotlin&logoColor=white) + `Flow` |
 | **Networking** | ![Retrofit](https://img.shields.io/badge/Retrofit-48B983?style=flat-square) + `OkHttp` |
-| **Local DB** | ![Room](https://img.shields.io/badge/Room-FF6F00?style=flat-square&logo=android&logoColor=white) |
 | **Navigation** | `Compose Navigation` |
 | **Testing** | `JUnit4` + `Espresso` + `Compose UI Tests` |
 | **Build** | ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white) with `Version Catalogs` |
@@ -108,6 +103,16 @@ cd your-app-name
 
 # 3. Open in Android Studio
 # File → Open → select the project folder
+
+# 4. Setup API key
+This project uses API key from OpenWeatherMap
+Sign-in to the portal and get the key
+Create an environment variable in your PC
+Use that in place of the API key
+
+# 5. Sync and Test
+Sync Gradle and run it
+If there is any error verify the cause in the console
 ```
 
 ```bash
@@ -126,18 +131,15 @@ cd your-app-name
 ## 🗺 Roadmap
 
 ```
-v1.0.0  ████████████████████  ✅  Initial release
-v1.1.0  ████████░░░░░░░░░░░░  🔧  [ ] Feature A  [ ] Bug fix B
-v1.2.0  ░░░░░░░░░░░░░░░░░░░░  📌  [ ] Feature C  [ ] Feature D
-v2.0.0  ░░░░░░░░░░░░░░░░░░░░  💡  [ ] Major redesign / new module
+v0.00.001  ████████████████████  ✅  Initial release
+v0.00.002  ████████░░░░░░░░░░░░  🔧  [ ] Weather through notification (In progress) 
 ```
 
 - [x] Project scaffolding and architecture setup
 - [x] Core UI with Jetpack Compose
-- [ ] Feature A — *in progress*
-- [ ] Feature B
-- [ ] Feature C
-- [ ] Widget support
+- [x] Fetch current weather — Complete
+- [x] Fetch queried weather - Complete
+- [x] Background Notification — *in progress*
 - [ ] Tablet / large screen optimization
 
 > Have an idea? [Open a feature request](../../issues/new) — contributions are welcome!
