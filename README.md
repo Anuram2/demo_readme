@@ -51,7 +51,7 @@ Whether you're [target user A] or [target user B], **YourAppName** gives you [co
 
 | Home Screen | Feature Screen | Settings |
 |:-----------:|:--------------:|:--------:|
-| <img src="https://placehold.co/220x440/1A1A2E/00C853?text=Screen+1&font=montserrat" width="220"/> | <img src="https://placehold.co/220x440/1A1A2E/7F52FF?text=Screen+2&font=montserrat" width="220"/> | <img src="https://placehold.co/220x440/1A1A2E/FFC107?text=Screen+3&font=montserrat" width="220"/> |
+| <img src="assets/Screenshot_20251031_221112.png" width="220"/> | <img src="https://placehold.co/220x440/1A1A2E/7F52FF?text=Screen+2&font=montserrat" width="220"/> | <img src="https://placehold.co/220x440/1A1A2E/FFC107?text=Screen+3&font=montserrat" width="220"/> |
 
 </div>
 
