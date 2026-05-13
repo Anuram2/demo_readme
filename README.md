@@ -39,7 +39,7 @@
 
 ## 🧭 About
 
-> **YourAppName** is an Android application built with Kotlin and Jetpack Compose that [describe what your app does and what problem it solves in 2–3 sentences].
+> **Local Weather** is an Android application built with Kotlin and Jetpack Compose that fetches local weather data through openweatherapi. It requires GPS to properly fetch your current location data(at the moment + forecast for the next 7 days), and also you can check the weather of a specific place you wish to know(weather at the moment only). On App relaunch it would check the permission and then if the GPS is enabled or not and proceed to home screen.
 
 Whether you're [target user A] or [target user B], **YourAppName** gives you [core value proposition] — right from your Android device.
 
@@ -49,9 +49,9 @@ Whether you're [target user A] or [target user B], **YourAppName** gives you [co
 
 <div align="center">
 
-| Home Screen | Feature Screen | Settings |
+| Permission | GPS Check | Home |
 |:-----------:|:--------------:|:--------:|
-| <img src="assets/Screenshot_20251022_124854.png" width="220"/> | <img src="https://placehold.co/220x440/1A1A2E/7F52FF?text=Screen+2&font=montserrat" width="220"/> | <img src="https://placehold.co/220x440/1A1A2E/FFC107?text=Screen+3&font=montserrat" width="220"/> |
+| <img src="assets/location_permission.png" width="220"/> | <img src="assets/gps_check.png" width="220"/> | <img src="assets/home.png" width="220"/> |
 
 </div>
 
