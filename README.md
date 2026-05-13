@@ -18,7 +18,7 @@
 
 ### 🚀 *For knowing the weather and forecast in your location and other locations.*
 
-[**Download APK**](#DownloadAPK)  ·  [**Report Bug**](../../issues)  ·  [**Request Feature**](../../issues)
+[**Download APK**](#-Download-APK)  ·  [**Report Bug**](../../issues)  ·  [**Request Feature**](../../issues)
 
 </div>
 
